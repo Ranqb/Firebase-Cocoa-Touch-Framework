@@ -15,4 +15,4 @@ This Cocoa Touch Frameworks is an easy way to add a Firebase CD to your project,
     Open your project configuration: double-click the project name in the left tree view. Select your app from the TARGETS section, then select the Info tab, and expand the URL Types section.
     Click the + button, and add a URL for your reversed client ID. To find this value, open the GoogleService-Info.plist configuration file, and look for the REVERSED_CLIENT_ID key. Copy the value of the key, and paste it into the URL. Schemes box on the configuration page. Leave the other fields blank.
 
-5. Add the methods you need for the FirebaseService class
+5. Add the necessary methods from Firebase SDK to the FirebaseService class
