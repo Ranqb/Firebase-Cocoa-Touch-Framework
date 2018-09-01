@@ -1,6 +1,6 @@
 # Firebase Cocoa Touch Framework
 
-This Cocoa Touch Frameworks is an easy way to add a Firebase CD to your project, if for some reason you can't use CocoaPoods, or a manual installation with the -ObjC flag.
+This Cocoa Touch Frameworks is an easy way to add a Firebase SDK to your project, if for some reason you can't use CocoaPoods, or a manual installation.
 
 ## Getting Started
 
