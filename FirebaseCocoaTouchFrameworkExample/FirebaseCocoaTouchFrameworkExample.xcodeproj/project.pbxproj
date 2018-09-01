@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55AFE534213B130F00AB14D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AFE533213B130F00AB14D2 /* AppDelegate.m */; };
+		55AFE53C213B131200AB14D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AFE53B213B131200AB14D2 /* Assets.xcassets */; };
+		55AFE53F213B131200AB14D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AFE53D213B131200AB14D2 /* LaunchScreen.storyboard */; };
+		55AFE542213B131200AB14D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AFE541213B131200AB14D2 /* main.m */; };
+		55AFE54F213B158500AB14D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55AFE54E213B158400AB14D2 /* GoogleService-Info.plist */; };
+		55AFE550213B175B00AB14D2 /* FirebaseCocoaTouchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AFE54D213B14ED00AB14D2 /* FirebaseCocoaTouchFramework.framework */; };
+		55AFE551213B175B00AB14D2 /* FirebaseCocoaTouchFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 55AFE54D213B14ED00AB14D2 /* FirebaseCocoaTouchFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55AFE54C213B14ED00AB14D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55AFE548213B14EC00AB14D2 /* FirebaseCocoaTouchFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55B256DF213599D20096C1D7;
+			remoteInfo = FirebaseCocoaTouchFramework;
+		};
+		55AFE552213B175B00AB14D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55AFE548213B14EC00AB14D2 /* FirebaseCocoaTouchFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B256DE213599D20096C1D7;
+			remoteInfo = FirebaseCocoaTouchFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55AFE554213B175C00AB14D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				55AFE551213B175B00AB14D2 /* FirebaseCocoaTouchFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55AFE52F213B130F00AB14D2 /* FirebaseCocoaTouchFrameworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseCocoaTouchFrameworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AFE532213B130F00AB14D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55AFE533213B130F00AB14D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55AFE53B213B131200AB14D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55AFE53E213B131200AB14D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55AFE540213B131200AB14D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AFE541213B131200AB14D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55AFE548213B14EC00AB14D2 /* FirebaseCocoaTouchFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FirebaseCocoaTouchFramework.xcodeproj; path = FirebaseCocoaTouchFramework/FirebaseCocoaTouchFramework.xcodeproj; sourceTree = "<group>"; };
+		55AFE54E213B158400AB14D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55AFE52C213B130F00AB14D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AFE550213B175B00AB14D2 /* FirebaseCocoaTouchFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55AFE526213B130F00AB14D2 = {
+			isa = PBXGroup;
+			children = (
+				55AFE54E213B158400AB14D2 /* GoogleService-Info.plist */,
+				55AFE548213B14EC00AB14D2 /* FirebaseCocoaTouchFramework.xcodeproj */,
+				55AFE531213B130F00AB14D2 /* FirebaseCocoaTouchFrameworkExample */,
+				55AFE530213B130F00AB14D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55AFE530213B130F00AB14D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55AFE52F213B130F00AB14D2 /* FirebaseCocoaTouchFrameworkExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55AFE531213B130F00AB14D2 /* FirebaseCocoaTouchFrameworkExample */ = {
+			isa = PBXGroup;
+			children = (
+				55AFE532213B130F00AB14D2 /* AppDelegate.h */,
+				55AFE533213B130F00AB14D2 /* AppDelegate.m */,
+				55AFE53B213B131200AB14D2 /* Assets.xcassets */,
+				55AFE53D213B131200AB14D2 /* LaunchScreen.storyboard */,
+				55AFE540213B131200AB14D2 /* Info.plist */,
+				55AFE541213B131200AB14D2 /* main.m */,
+			);
+			path = FirebaseCocoaTouchFrameworkExample;
+			sourceTree = "<group>";
+		};
+		55AFE549213B14EC00AB14D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55AFE54D213B14ED00AB14D2 /* FirebaseCocoaTouchFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55AFE52E213B130F00AB14D2 /* FirebaseCocoaTouchFrameworkExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AFE545213B131200AB14D2 /* Build configuration list for PBXNativeTarget "FirebaseCocoaTouchFrameworkExample" */;
+			buildPhases = (
+				55AFE52B213B130F00AB14D2 /* Sources */,
+				55AFE52C213B130F00AB14D2 /* Frameworks */,
+				55AFE52D213B130F00AB14D2 /* Resources */,
+				55AFE554213B175C00AB14D2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55AFE553213B175B00AB14D2 /* PBXTargetDependency */,
+			);
+			name = FirebaseCocoaTouchFrameworkExample;
+			productName = FirebaseCocoaTouchFrameworkExample;
+			productReference = 55AFE52F213B130F00AB14D2 /* FirebaseCocoaTouchFrameworkExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55AFE527213B130F00AB14D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Andrey Nedov";
+				TargetAttributes = {
+					55AFE52E213B130F00AB14D2 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 55AFE52A213B130F00AB14D2 /* Build configuration list for PBXProject "FirebaseCocoaTouchFrameworkExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55AFE526213B130F00AB14D2;
+			productRefGroup = 55AFE530213B130F00AB14D2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 55AFE549213B14EC00AB14D2 /* Products */;
+					ProjectRef = 55AFE548213B14EC00AB14D2 /* FirebaseCocoaTouchFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				55AFE52E213B130F00AB14D2 /* FirebaseCocoaTouchFrameworkExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		55AFE54D213B14ED00AB14D2 /* FirebaseCocoaTouchFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCocoaTouchFramework.framework;
+			remoteRef = 55AFE54C213B14ED00AB14D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55AFE52D213B130F00AB14D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AFE53F213B131200AB14D2 /* LaunchScreen.storyboard in Resources */,
+				55AFE54F213B158500AB14D2 /* GoogleService-Info.plist in Resources */,
+				55AFE53C213B131200AB14D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55AFE52B213B130F00AB14D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AFE542213B131200AB14D2 /* main.m in Sources */,
+				55AFE534213B130F00AB14D2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55AFE553213B175B00AB14D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FirebaseCocoaTouchFramework;
+			targetProxy = 55AFE552213B175B00AB14D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55AFE53D213B131200AB14D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55AFE53E213B131200AB14D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55AFE543213B131200AB14D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55AFE544213B131200AB14D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55AFE546213B131200AB14D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LS53ZHYBD;
+				INFOPLIST_FILE = FirebaseCocoaTouchFrameworkExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreynedov.FirebaseCocoaTouchFrameworkExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55AFE547213B131200AB14D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LS53ZHYBD;
+				INFOPLIST_FILE = FirebaseCocoaTouchFrameworkExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreynedov.FirebaseCocoaTouchFrameworkExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55AFE52A213B130F00AB14D2 /* Build configuration list for PBXProject "FirebaseCocoaTouchFrameworkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AFE543213B131200AB14D2 /* Debug */,
+				55AFE544213B131200AB14D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55AFE545213B131200AB14D2 /* Build configuration list for PBXNativeTarget "FirebaseCocoaTouchFrameworkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AFE546213B131200AB14D2 /* Debug */,
+				55AFE547213B131200AB14D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55AFE527213B130F00AB14D2 /* Project object */;
+}
