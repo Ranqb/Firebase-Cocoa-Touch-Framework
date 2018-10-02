@@ -9,15 +9,23 @@
 #import "AppDelegate.h"
 #import <FirebaseCocoaTouchFramework/FirebaseCocoaTouchFramework.h>
 
-@interface AppDelegate ()
+@interface AppDelegate () <FirebaseServiceDelegate>
 
 @end
 
 @implementation AppDelegate
 
+- (void)messaging:(nonnull FIRMessaging *)messaging didRefreshRegistrationToken:(nonnull NSString *)fcmToken {
+    NSLog(@"Push didRefreshRegistrationToken %@", fcmToken);
+}
+
+- (void)messaging:(FIRMessaging *)messaging didReceiveMessage:(FIRMessagingRemoteMessage *)remoteMessage {
+    NSLog(@"Push Received data message");
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[FirebaseService sharedManager] configure];
+    [[FirebaseService sharedManager] messagingDelegate:self];
     // Override point for customization after application launch.
     return YES;
 }

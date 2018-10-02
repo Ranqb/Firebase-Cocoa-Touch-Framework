@@ -16,7 +16,7 @@
 - (void)messaging:(FIRMessaging *)messaging didReceiveMessage:(FIRMessagingRemoteMessage *)remoteMessage;
 @end
 
-@interface FirebaseService : NSObject
+@interface FirebaseService : NSObject 
 @property (weak, nonatomic) id <FirebaseServiceDelegate> delegate;
 + (FirebaseService *)sharedManager;
 - (void)configure;

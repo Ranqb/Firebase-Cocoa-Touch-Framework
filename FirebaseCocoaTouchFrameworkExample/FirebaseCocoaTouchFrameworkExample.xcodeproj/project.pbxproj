@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5554C377216364B900904654 /* FirebaseCocoaTouchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5554C376216364B900904654 /* FirebaseCocoaTouchFramework.framework */; };
+		5554C379216364BE00904654 /* FirebaseCocoaTouchFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5554C376216364B900904654 /* FirebaseCocoaTouchFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		558DB07E21636AB8001F43E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558DB07D21636AB8001F43E8 /* GoogleService-Info.plist */; };
 		55AFE534213B130F00AB14D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AFE533213B130F00AB14D2 /* AppDelegate.m */; };
 		55AFE53C213B131200AB14D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AFE53B213B131200AB14D2 /* Assets.xcassets */; };
 		55AFE53F213B131200AB14D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AFE53D213B131200AB14D2 /* LaunchScreen.storyboard */; };
 		55AFE542213B131200AB14D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AFE541213B131200AB14D2 /* main.m */; };
-		55AFE54F213B158500AB14D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55AFE54E213B158400AB14D2 /* GoogleService-Info.plist */; };
-		55D476EA216361C300A5F973 /* FirebaseCocoaTouchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D476E9216361C300A5F973 /* FirebaseCocoaTouchFramework.framework */; };
-		55D476EC216361CE00A5F973 /* FirebaseCocoaTouchFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 55D476E9216361C300A5F973 /* FirebaseCocoaTouchFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				55D476EC216361CE00A5F973 /* FirebaseCocoaTouchFramework.framework in Embed Frameworks */,
+				5554C379216364BE00904654 /* FirebaseCocoaTouchFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5554C376216364B900904654 /* FirebaseCocoaTouchFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCocoaTouchFramework.framework; sourceTree = "<group>"; };
+		558DB07D21636AB8001F43E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		55AFE52F213B130F00AB14D2 /* FirebaseCocoaTouchFrameworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseCocoaTouchFrameworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AFE532213B130F00AB14D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55AFE533213B130F00AB14D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,8 +40,6 @@
 		55AFE53E213B131200AB14D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55AFE540213B131200AB14D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55AFE541213B131200AB14D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55AFE54E213B158400AB14D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		55D476E9216361C300A5F973 /* FirebaseCocoaTouchFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCocoaTouchFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D476EA216361C300A5F973 /* FirebaseCocoaTouchFramework.framework in Frameworks */,
+				5554C377216364B900904654 /* FirebaseCocoaTouchFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,8 +57,8 @@
 		55AFE526213B130F00AB14D2 = {
 			isa = PBXGroup;
 			children = (
-				55AFE54E213B158400AB14D2 /* GoogleService-Info.plist */,
-				55D476E9216361C300A5F973 /* FirebaseCocoaTouchFramework.framework */,
+				558DB07D21636AB8001F43E8 /* GoogleService-Info.plist */,
+				5554C376216364B900904654 /* FirebaseCocoaTouchFramework.framework */,
 				55AFE531213B130F00AB14D2 /* FirebaseCocoaTouchFrameworkExample */,
 				55AFE530213B130F00AB14D2 /* Products */,
 			);
@@ -144,8 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55AFE53F213B131200AB14D2 /* LaunchScreen.storyboard in Resources */,
-				55AFE54F213B158500AB14D2 /* GoogleService-Info.plist in Resources */,
 				55AFE53C213B131200AB14D2 /* Assets.xcassets in Resources */,
+				558DB07E21636AB8001F43E8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +291,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LS53ZHYBD;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = FirebaseCocoaTouchFrameworkExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,11 +314,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LS53ZHYBD;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = FirebaseCocoaTouchFrameworkExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
