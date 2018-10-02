@@ -1,0 +1,6 @@
+framework module FirebaseCocoaTouchFramework {
+  umbrella header "FirebaseCocoaTouchFramework.h"
+
+  export *
+  module * { export * }
+}
