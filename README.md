@@ -6,7 +6,7 @@ This Cocoa Touch Framework is an easy way to add a Firebase SDK to your project,
 
 ![](FIRGuide.gif)
 
-1.Open the folder with the framework project and compile. Copy framework, and add it to your project in Xcode.
+1. Open the folder with the framework project and compile. Copy framework, and add it to your project in Xcode.
 
 2. Having that done, select your parent project and link these binaries to it: 
     add FirebaseCocoaTouchFramework.framework from Products folder to embedded binaries.
