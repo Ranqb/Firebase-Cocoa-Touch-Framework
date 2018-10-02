@@ -14,13 +14,12 @@
 @required
 - (void)messaging:(nonnull FIRMessaging *)messaging didRefreshRegistrationToken:(nonnull NSString *)fcmToken;
 - (void)messaging:(FIRMessaging *)messaging didReceiveMessage:(FIRMessagingRemoteMessage *)remoteMessage;
-- (void)subscribeForRemoteNotificationsWithFCMToken:(nonnull NSString *)fcmToken;
 @end
 
-@interface FirebaseService : NSObject 
+@interface FirebaseService : NSObject
 @property (weak, nonatomic) id <FirebaseServiceDelegate> delegate;
 + (FirebaseService *)sharedManager;
 - (void)configure;
 - (NSString *)getFCMToken;
-- (void)messagingDelegate;
+- (void)messagingDelegate:(id <FirebaseServiceDelegate>)delegate;
 @end

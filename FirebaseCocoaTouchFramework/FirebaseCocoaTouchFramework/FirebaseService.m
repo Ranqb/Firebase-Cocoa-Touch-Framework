@@ -26,7 +26,8 @@
     return [FIRMessaging messaging].FCMToken;
 }
 
-- (void)messagingDelegate{
+- (void)messagingDelegate:(id <FirebaseServiceDelegate>)delegate{
+    self.delegate = delegate;
     [FIRMessaging messaging].delegate = self;
 }
 
@@ -34,19 +35,14 @@
     [FIRApp configure];
 }
 
-
 #pragma mark FirebaseCloudMessaging
 
-- (void)messaging:(nonnull FIRMessaging *)messaging didRefreshRegistrationToken:(nonnull NSString *)fcmToken {
+- (void)messaging:(FIRMessaging *)messaging didReceiveRegistrationToken:(NSString *)fcmToken{
     [self.delegate messaging:messaging didRefreshRegistrationToken:fcmToken];
 }
 
 - (void)messaging:(FIRMessaging *)messaging didReceiveMessage:(FIRMessagingRemoteMessage *)remoteMessage {
     [self.delegate messaging:messaging didReceiveMessage:remoteMessage];
-}
-
-- (void)subscribeForRemoteNotificationsWithFCMToken:(nonnull NSString *)fcmToken {
-    [self.delegate subscribeForRemoteNotificationsWithFCMToken:fcmToken];
 }
 
 @end
