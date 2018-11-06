@@ -6,7 +6,7 @@ This Cocoa Touch Framework is an easy way to add a Firebase SDK to your project,
 
 ![](FIRGuide.gif)
 
-1. Open the folder with the framework project and compile. Copy framework, and add it to your project in Xcode.
+1. Open the folder with the framework project and compile. Copy framework (from DEBUG or APPSTORE), and add it to your project in Xcode.
 
 2. Having that done, select your parent project and link these binaries to it: 
     add FirebaseCocoaTouchFramework.framework from Products folder to embedded binaries.
@@ -18,6 +18,10 @@ This Cocoa Touch Framework is an easy way to add a Firebase SDK to your project,
     Click the + button, and add a URL for your reversed client ID. To find this value, open the GoogleService-Info.plist configuration file, and look for the REVERSED_CLIENT_ID key. Copy the value of the key, and paste it into the URL. Schemes box on the configuration page. Leave the other fields blank.
 
 5. Add the necessary methods from Firebase SDK to the FirebaseService class
+
+## Update Framework
+1. Open FirebaseCocoaTouchFramework.xcworkspace
+2. Build Cmd+B with target FirebaseCocoaTouchFramework-Universal and FIR-AppStore, to update framework in DEBUG and APPSTORE folder.
 
 
 ## If you have problems building the project:
