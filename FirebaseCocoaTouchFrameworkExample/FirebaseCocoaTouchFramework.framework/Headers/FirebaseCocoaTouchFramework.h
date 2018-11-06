@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char FirebaseCocoaTouchFrameworkVersionString[]
 
 // In this header, you should import all the public headers of your framework using statements like #import <FirebaseCocoaTouchFramework/PublicHeader.h>
 
-#import <FirebaseCocoaTouchFramework/FirebaseService.h>
+#import "FirebaseService.h"

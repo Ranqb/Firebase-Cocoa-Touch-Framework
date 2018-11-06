@@ -6,6 +6,31 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		55508B92218C854600B2C819 /* FIR-AppStore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 55508B95218C854600B2C819 /* Build configuration list for PBXAggregateTarget "FIR-AppStore" */;
+			buildPhases = (
+				55508B96218C854F00B2C819 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "FIR-AppStore";
+			productName = "FIR-AppStore";
+		};
+		557540C5218A1791007129F8 /* FirebaseCocoaTouchFramework-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 557540C8218A1791007129F8 /* Build configuration list for PBXAggregateTarget "FirebaseCocoaTouchFramework-Universal" */;
+			buildPhases = (
+				557540CD218A17A1007129F8 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "FirebaseCocoaTouchFramework-Universal";
+			productName = "FirebaseCocoaTouchFramework-Universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		554C789B2136A0550028579F /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554C789A2136A0550028579F /* LocalAuthentication.framework */; };
 		554C789D2136A0800028579F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554C789C2136A0800028579F /* StoreKit.framework */; };
@@ -37,15 +62,9 @@
 		55B2575121359A510096C1D7 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2570821359A510096C1D7 /* FirebaseRemoteConfig.framework */; };
 		55B2575221359A510096C1D7 /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2570921359A510096C1D7 /* FirebaseABTesting.framework */; };
 		55B2575321359A510096C1D7 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2570B21359A510096C1D7 /* GoogleMobileAds.framework */; };
-		55B2575421359A510096C1D7 /* upload-sym in Resources */ = {isa = PBXBuildFile; fileRef = 55B2570D21359A510096C1D7 /* upload-sym */; };
 		55B2575521359A510096C1D7 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2570E21359A510096C1D7 /* Protobuf.framework */; };
-		55B2575621359A510096C1D7 /* upload-sym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 55B2570F21359A510096C1D7 /* upload-sym.sh */; };
 		55B2575721359A510096C1D7 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2571021359A510096C1D7 /* FirebaseCrash.framework */; };
 		55B2575821359A510096C1D7 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2571121359A510096C1D7 /* GoogleToolboxForMac.framework */; };
-		55B2575921359A510096C1D7 /* extract-keys in Resources */ = {isa = PBXBuildFile; fileRef = 55B2571221359A510096C1D7 /* extract-keys */; };
-		55B2575A21359A510096C1D7 /* dump_syms in Resources */ = {isa = PBXBuildFile; fileRef = 55B2571321359A510096C1D7 /* dump_syms */; };
-		55B2575B21359A510096C1D7 /* upload-sym-util.bash in Resources */ = {isa = PBXBuildFile; fileRef = 55B2571421359A510096C1D7 /* upload-sym-util.bash */; };
-		55B2575C21359A510096C1D7 /* batch-upload in Resources */ = {isa = PBXBuildFile; fileRef = 55B2571521359A510096C1D7 /* batch-upload */; };
 		55B2575D21359A510096C1D7 /* NOTICES in Resources */ = {isa = PBXBuildFile; fileRef = 55B2571621359A510096C1D7 /* NOTICES */; };
 		55B2575E21359A510096C1D7 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2571821359A510096C1D7 /* GTMSessionFetcher.framework */; };
 		55B2575F21359A510096C1D7 /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2571921359A510096C1D7 /* FirebaseStorage.framework */; };
@@ -129,15 +148,9 @@
 		55B2570821359A510096C1D7 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
 		55B2570921359A510096C1D7 /* FirebaseABTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseABTesting.framework; sourceTree = "<group>"; };
 		55B2570B21359A510096C1D7 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		55B2570D21359A510096C1D7 /* upload-sym */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-sym"; sourceTree = "<group>"; };
 		55B2570E21359A510096C1D7 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
-		55B2570F21359A510096C1D7 /* upload-sym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-sym.sh"; sourceTree = "<group>"; };
 		55B2571021359A510096C1D7 /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCrash.framework; sourceTree = "<group>"; };
 		55B2571121359A510096C1D7 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
-		55B2571221359A510096C1D7 /* extract-keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "extract-keys"; sourceTree = "<group>"; };
-		55B2571321359A510096C1D7 /* dump_syms */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dump_syms; sourceTree = "<group>"; };
-		55B2571421359A510096C1D7 /* upload-sym-util.bash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "upload-sym-util.bash"; sourceTree = "<group>"; };
-		55B2571521359A510096C1D7 /* batch-upload */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "batch-upload"; sourceTree = "<group>"; };
 		55B2571621359A510096C1D7 /* NOTICES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICES; sourceTree = "<group>"; };
 		55B2571821359A510096C1D7 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
 		55B2571921359A510096C1D7 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = "<group>"; };
@@ -423,15 +436,9 @@
 		55B2570C21359A510096C1D7 /* Crash */ = {
 			isa = PBXGroup;
 			children = (
-				55B2570D21359A510096C1D7 /* upload-sym */,
 				55B2570E21359A510096C1D7 /* Protobuf.framework */,
-				55B2570F21359A510096C1D7 /* upload-sym.sh */,
 				55B2571021359A510096C1D7 /* FirebaseCrash.framework */,
 				55B2571121359A510096C1D7 /* GoogleToolboxForMac.framework */,
-				55B2571221359A510096C1D7 /* extract-keys */,
-				55B2571321359A510096C1D7 /* dump_syms */,
-				55B2571421359A510096C1D7 /* upload-sym-util.bash */,
-				55B2571521359A510096C1D7 /* batch-upload */,
 			);
 			path = Crash;
 			sourceTree = "<group>";
@@ -586,9 +593,15 @@
 		55B256D6213599D20096C1D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Андрей Недов";
 				TargetAttributes = {
+					55508B92218C854600B2C819 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					557540C5218A1791007129F8 = {
+						CreatedOnToolsVersion = 9.4;
+					};
 					55B256DE213599D20096C1D7 = {
 						CreatedOnToolsVersion = 9.4;
 					};
@@ -607,6 +620,8 @@
 			projectRoot = "";
 			targets = (
 				55B256DE213599D20096C1D7 /* FirebaseCocoaTouchFramework */,
+				557540C5218A1791007129F8 /* FirebaseCocoaTouchFramework-Universal */,
+				55508B92218C854600B2C819 /* FIR-AppStore */,
 			);
 		};
 /* End PBXProject section */
@@ -617,22 +632,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B2576C21359A510096C1D7 /* GINInviteResources.bundle in Resources */,
-				55B2575C21359A510096C1D7 /* batch-upload in Resources */,
 				55B2574221359A510096C1D7 /* InAppMessagingResources.bundle in Resources */,
 				55B2576A21359A510096C1D7 /* GoogleSignIn.bundle in Resources */,
 				55B2576021359A510096C1D7 /* README.md in Resources */,
-				55B2575621359A510096C1D7 /* upload-sym.sh in Resources */,
 				55B2575D21359A510096C1D7 /* NOTICES in Resources */,
-				55B2575921359A510096C1D7 /* extract-keys in Resources */,
-				55B2575421359A510096C1D7 /* upload-sym in Resources */,
 				55B2576B21359A510096C1D7 /* GPPACLPickerResources.bundle in Resources */,
-				55B2575A21359A510096C1D7 /* dump_syms in Resources */,
 				55B2574721359A510096C1D7 /* gRPCCertificates.bundle in Resources */,
-				55B2575B21359A510096C1D7 /* upload-sym-util.bash in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55508B96218C854F00B2C819 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"FirebaseCocoaTouchFramework\"\nOUTPUT_DIR=\"${SRCROOT}/FRAMEWORKS\"\nEMBEDDED_BINARIES_DIR=\"${SRCROOT}/APPSTORE\"\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${OUTPUT_DIR}\" ]; then\nrm -rf \"${OUTPUT_DIR}\"\nfi\n\nif [ -d \"${EMBEDDED_BINARIES_DIR}\" ]; then\nrm -rf \"${EMBEDDED_BINARIES_DIR}\"\nfi\n\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -workspace \"${FRAMEWORK_NAME}.xcworkspace\" -scheme \"${FRAMEWORK_NAME}\" -configuration Release -arch arm64 -arch armv7   only_active_arch=no defines_module=yes -sdk \"iphoneos\" -derivedDataPath \"${OUTPUT_DIR}\"\n\n# 5\n# Remove .framework file if exists from previous run.\nif [ -d \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\"\nfi\n# 6\n# Copy the device version of framework.\ncp -r \"${OUTPUT_DIR}/Build/Products/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\"\n\nif [ ! -d \"${EMBEDDED_BINARIES_DIR}\" ]; then\nmkdir -p \"${EMBEDDED_BINARIES_DIR}\";\nfi\n\ncp -r \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\" \"${EMBEDDED_BINARIES_DIR}\"\nif [ -d \"${OUTPUT_DIR}\" ]; then\nrm -rf \"${OUTPUT_DIR}\"\nfi\nopen \"${SRCROOT}\"\n";
+		};
+		557540CD218A17A1007129F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"FirebaseCocoaTouchFramework\"\nOUTPUT_DIR=\"${SRCROOT}/FRAMEWORKS\"\nEMBEDDED_BINARIES_DIR=\"${SRCROOT}/DEBUG\"\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${OUTPUT_DIR}\" ]; then\nrm -rf \"${OUTPUT_DIR}\"\nfi\nif [ -d \"${EMBEDDED_BINARIES_DIR}\" ]; then\nrm -rf \"${EMBEDDED_BINARIES_DIR}\"\nfi\nif [ -d \"${SRCROOT}/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${SRCROOT}/${FRAMEWORK_NAME}.framework\"\nfi\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -workspace \"${FRAMEWORK_NAME}.xcworkspace\" -scheme \"${FRAMEWORK_NAME}\" -configuration Release -arch arm64 -arch armv7   only_active_arch=no defines_module=yes -sdk \"iphoneos\" -derivedDataPath \"${OUTPUT_DIR}\"\nxcodebuild -workspace \"${FRAMEWORK_NAME}.xcworkspace\" -scheme \"${FRAMEWORK_NAME}\" -configuration Release -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\" -derivedDataPath \"${OUTPUT_DIR}\"\n# 5\n# Remove .framework file if exists from previous run.\nif [ -d \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\"\nfi\n\n# 6\n# Copy the device version of framework.\ncp -r \"${OUTPUT_DIR}/Build/Products/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\"\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${OUTPUT_DIR}/Build/Products/Release-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${OUTPUT_DIR}/Build/Products/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\nif [ ! -d \"${EMBEDDED_BINARIES_DIR}\" ]; then\nmkdir -p \"${EMBEDDED_BINARIES_DIR}\";\nfi\n\ncp -r \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\" \"${EMBEDDED_BINARIES_DIR}\"\n#cp -r \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\" \"${SRCROOT}\"\nif [ -d \"${OUTPUT_DIR}\" ]; then\nrm -rf \"${OUTPUT_DIR}\"\nfi\nopen \"${SRCROOT}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55B256DA213599D20096C1D7 /* Sources */ = {
@@ -646,6 +688,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		55508B93218C854600B2C819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2V72H9P7F;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55508B94218C854600B2C819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2V72H9P7F;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		557540C6218A1791007129F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2V72H9P7F;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		557540C7218A1791007129F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2V72H9P7F;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		55B256E5213599D20096C1D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -765,10 +843,10 @@
 		55B256E8213599D20096C1D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = F2V72H9P7F;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -813,10 +891,10 @@
 		55B256E9213599D20096C1D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = F2V72H9P7F;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -861,6 +939,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		55508B95218C854600B2C819 /* Build configuration list for PBXAggregateTarget "FIR-AppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55508B93218C854600B2C819 /* Debug */,
+				55508B94218C854600B2C819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557540C8218A1791007129F8 /* Build configuration list for PBXAggregateTarget "FirebaseCocoaTouchFramework-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557540C6218A1791007129F8 /* Debug */,
+				557540C7218A1791007129F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		55B256D9213599D20096C1D7 /* Build configuration list for PBXProject "FirebaseCocoaTouchFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
